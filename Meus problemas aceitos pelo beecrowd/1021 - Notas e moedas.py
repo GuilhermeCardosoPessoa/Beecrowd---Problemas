@@ -1,0 +1,51 @@
+a = float(input())
+aoma = a // 100
+boma = aoma * 100
+zoma = a - boma
+coma = zoma // 50
+doma = coma * 50
+xoma = zoma - doma
+eoma = xoma // 20
+foma = eoma * 20
+yoma = xoma - foma
+goma = yoma // 10
+homa = goma * 10
+woma = yoma - homa
+ioma = woma // 5
+joma = ioma * 5
+toma = woma - joma
+koma = toma // 2
+loma = koma * 2
+poma = toma - loma
+moma = poma // 1.00
+B = moma * 1.00
+C = poma - B
+Z = C * 100
+D = Z // 50
+E = D * 50
+F = Z - E
+G = F // 25
+H = G * 25
+I = F - H
+J = I // 10
+K = J * 10
+L = I - K
+M = L // 5
+N = M * 5
+O = L - N
+P = O // 1
+
+print('NOTAS:')
+print(f'{aoma:.0f} nota(s) de R$ 100.00')
+print(f'{coma:.0f} nota(s) de R$ 50.00')
+print(f'{eoma:.0f} nota(s) de R$ 20.00')
+print(f'{goma:.0f} nota(s) de R$ 10.00')
+print(f'{ioma:.0f} nota(s) de R$ 5.00')
+print(f'{koma:.0f} nota(s) de R$ 2.00')
+print('MOEDAS:')
+print(f'{moma:.0f} moeda(s) de R$ 1.00')
+print(f'{D:.0f} moeda(s) de R$ 0.50')
+print(f'{G:.0f} moeda(s) de R$ 0.25')
+print(f'{J:.0f} moeda(s) de R$ 0.10')
+print(f'{M:.0f} moeda(s) de R$ 0.05')
+print(f'{P:.0f} moeda(s) de R$ 0.01')
